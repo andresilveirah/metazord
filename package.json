@@ -9,6 +9,7 @@
   "dependencies": {
     "react": "16.8.3",
     "react-native": "0.59.8",
+    "react-native-cookies": "git+ssh://git@github.com:joeferraro/react-native-cookies.git",
     "react-native-gesture-handler": "^1.2.1",
     "react-native-webview": "^5.8.1",
     "react-navigation": "^3.9.1"
