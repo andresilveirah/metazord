@@ -8,10 +8,10 @@ import Toggle from 'components/Toggle';
 export default ({ site, onSiteChange }) => {
   const {accountId, siteName, campaignEnv, targetingParams} = site;
   return (
-    <View style={{ flex: 1 }}>
+    <View style={{ flex: 1 }} testID="SiteForm">
       <LabelledInput
         label="Account Id: "
-        placeholder="Accound Id ..."
+        placeholder="Account Id ..."
         value={accountId}
         onChangeText={(accountId) => onSiteChange({ ...site, accountId })}
         returnKeyType="next"

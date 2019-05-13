@@ -5,7 +5,7 @@ import Text, { Typography } from 'components/Text'
 
 export default ({ label, ...inputProps }) => (
   <View style={styles.container}>
-    <Text>{label}</Text>
+    <Text testId="label">{label}</Text>
     <TextInput
       style={[styles.input, Typography.medium]}
       autoCorrect={false}

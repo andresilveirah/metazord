@@ -18,6 +18,7 @@ import SiteForm from 'components/SiteForm'
  * TODO
  * - Add toggle to enable keeping/erasing cookies
  * - Add toggle to enable keeping/hiding NavBar
+ * - Use FontAwesome instead of emojis
  */
 
 type Site = {
